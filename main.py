@@ -20,7 +20,7 @@ def get_printer():
 
 def start_printer(cprinter,pdf):
     if sys.platform == 'win32':
-        args = [f".\\PDFtoPrinter.exe",
+        args = [f".\\bin\\PDFtoPrinter.exe",
                 f"{pdf}",
                 f"{cprinter}",
                 ]
